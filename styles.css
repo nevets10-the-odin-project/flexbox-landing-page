@@ -13,7 +13,7 @@ ul {
   padding: 0;
 }
 
-.section-1 {
+.hero {
   flex: 1;
   background-color: #1f2937;
   padding: 16px 150px;
@@ -41,17 +41,17 @@ ul {
   text-decoration: none;
 }
 
-.section-2 {
+.information {
   flex: 1;
   padding: 16px 150px;
 }
 
-.section-3 {
+.quote {
   flex: 1;
   padding: 16px 150px;
 }
 
-.section-4 {
+.action {
   flex: 1;
   padding: 16px 150px;
 }
