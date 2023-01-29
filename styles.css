@@ -19,11 +19,8 @@ ul {
   padding: 16px 150px;
 }
 
-.header,
-.header-links {
+.header {
   display: flex;
-  justify-content: space-around;
-  gap: 16px;
 }
 
 .header-logo {
@@ -31,6 +28,13 @@ ul {
   color: #f9faf8;
   font-size: 24px;
   font-weight: 900;
+}
+
+.header-links {
+  display: flex;
+  justify-content: space-around;
+  gap: 16px;
+  color: #e5e7eb;
 }
 
 .section-2 {
