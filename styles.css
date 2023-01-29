@@ -8,14 +8,20 @@ ul {
   list-style-type: none;
 }
 
-.header {
-  flex: 1;
-  display: flex;
-}
-
 .section-1 {
   flex: 1;
 }
+
+.header,
+.header-links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-logo {
+  flex: 1;
+}
+
 .section-2 {
   flex: 1;
 }
