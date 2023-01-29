@@ -34,7 +34,11 @@ ul {
   display: flex;
   justify-content: space-around;
   gap: 16px;
+}
+
+.header-links a {
   color: #e5e7eb;
+  text-decoration: none;
 }
 
 .section-2 {
