@@ -16,6 +16,7 @@ ul {
 .section-1 {
   flex: 1;
   background-color: #1f2937;
+  padding: 16px 150px;
 }
 
 .header,
@@ -34,16 +35,20 @@ ul {
 
 .section-2 {
   flex: 1;
+  padding: 16px 150px;
 }
 
 .section-3 {
   flex: 1;
+  padding: 16px 150px;
 }
 
 .section-4 {
   flex: 1;
+  padding: 16px 150px;
 }
 
 .footer {
   flex: 1;
+  padding: 16px 150px;
 }
