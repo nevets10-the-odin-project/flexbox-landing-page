@@ -4,8 +4,13 @@ body {
   height: 100vh;
 }
 
+ul {
+  list-style-type: none;
+}
+
 .header {
   flex: 1;
+  display: flex;
 }
 
 .section-1 {
