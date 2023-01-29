@@ -2,10 +2,13 @@ body {
   display: flex;
   flex-direction: column;
   height: 100vh;
+  margin: 16px 150px;
 }
 
 ul {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 .section-1 {
@@ -15,7 +18,8 @@ ul {
 .header,
 .header-links {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  gap: 16px;
 }
 
 .header-logo {
