@@ -5,24 +5,99 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles.css" />
-    <title>Flexbox Landing Page</title>
+    <title>Darwin!</title>
   </head>
   <body>
     <div class="hero">
       <ul class="header">
-        <li class="header-logo">Header Logo</li>
+        <li class="header-logo">Darwin Logo</li>
         <li>
           <ul class="header-links">
-            <li class="header-link-one"><a href="#">header link one</a></li>
-            <li class="header-link-two"><a href="#">header link two</a></li>
-            <li class="header-link-three"><a href="#">header link three</a></li>
+            <li class="header-link-one">
+              <a href="#information">Information</a>
+            </li>
+            <li class="header-link-two">
+              <a href="#quote">Quote</a>
+            </li>
+            <li class="header-link-three">
+              <a href="#action">Action</a>
+            </li>
           </ul>
         </li>
       </ul>
+      <div class="hero-content">
+        <div class="hero-content-body">
+          <h1 class="hero-content-header">This is Darwin!</h1>
+          <p>
+            Look at this dog! His name is Darwin. He is a good boy! He loves to
+            lay in the sun, eat cheese, play with his humans and sleep.
+          </p>
+          <button onclick="goodBoy()">Click if Darwin is a good boy!</button>
+        </div>
+        <img
+          class="hero-content-image"
+          src="./img/dar1.jpg"
+          alt="Darwin basking in the sun."
+        />
+      </div>
     </div>
-    <div class="information">Information</div>
-    <div class="quote">Quote</div>
-    <div class="action">Action</div>
-    <div class="footer">Footer</div>
+    <div id="information" class="information">
+      <h2>Darwin information.</h2>
+      <div class="information-content">
+        <div class="info-card">
+          <img src="./img/dar2.jpg" alt="Darwin with a great big smile!" />
+          <p>Darwin loves having his belly rubbed!</p>
+        </div>
+        <div class="info-card">
+          <img
+            src="./img/dar3.jpg"
+            alt="Darwin holding his favorite red ball in his mouth."
+          />
+          <p>Darwin's favorite toy is a bright red soccer ball!</p>
+        </div>
+        <div class="info-card">
+          <img src="./img/dar4.jpg" alt="Darwin sleeping like a log." />
+          <p>
+            He is sometimes too sleepy and needs extra motivation getting out of
+            bed.
+          </p>
+        </div>
+        <div class="info-card">
+          <img src="./img/dar5.jpg" alt="Darwin." />
+          <p>Darwin is a sweet, little, 155lb baby!</p>
+        </div>
+      </div>
+    </div>
+    <div id="quote" class="quote">
+      <div class="quote-content">
+        <p class="quote-text">
+          <i
+            >Dar just wants to stay outside and sunbathe, but I gata go back to
+            work.
+          </i>
+          😅
+        </p>
+        <p class="quote-author">- Me, checking on Darwin during lunch</p>
+      </div>
+    </div>
+    <div id="action" class="action">
+      <div class="action-content">
+        <div class="action-content-text">
+          <h3>Want more Darwin?</h3>
+          <p>Sign up today for more Darwin details!</p>
+        </div>
+        <button onclick="signUp()">Sign up</button>
+      </div>
+    </div>
+    <div class="footer">Copyright © Darwin 2023</div>
+    <script>
+      function goodBoy() {
+        alert("Darwin is a good boy!");
+      }
+
+      function signUp() {
+        alert("Thank you for signing up!");
+      }
+    </script>
   </body>
 </html>
